@@ -1,15 +1,15 @@
-# WiseCreator
-
-[![Build status](https://ci.appveyor.com/api/projects/status/a1facjlt6ij1bt5q?svg=true)](https://ci.appveyor.com/project/tmilovanov/wisecreator)
+# A forked from [WiseCreator](https://github.com/tmilovanov/wisecreator)
 
 <img src="./resources/result.png" alt="result" style="zoom: 50%;" />
 
 ## FAQ
 
+- What is this fork for?
+  - Add some changes to run with Python 3.12 and a binary to run on Mac OS
 - Which book formats are supported?
   - AZW3, MOBI
 - What OS do I need to run the tool?
-  - Windows, Linux or Mac OS (But for Mac OS you need to follow the usage way, described in "script" paragraph)
+  - Windows, Linux, Mac OS or run from script (described in "script" paragraph)
 - I used this tool but word wise didn't appear on my device, what should I do?
   - Describe what you did and send me your book to timcess@gmail.com
 
@@ -28,10 +28,11 @@ To enable wordwise, the lang meta data of your .mobi files should be set to `eng
 ## standalone
 
 1. You need to have [calibre](https://calibre-ebook.com/) on your device.
-2. Go to [Releases](https://github.com/tmilovanov/wisecreator/releases) and download wisecreator version for your operating system (`wisecreator.exe` for windows, `wisecreator` for linux)
+2. Go to [Releases](https://github.com/trinhquocviet/wisecreator/releases) and download wisecreator version for your operating system (`wisecreator.exe` for windows, `wisecreator` for linux and `wisecreator-osx` for Mac OS)
 3. Finally run the below commands in a shell  
     Windows: `wisecreator.exe PATH_TO_YOUR_MOBI_BOOK`   
     Linux &nbsp; &nbsp; &nbsp;: `./wisecreator PATH_TO_YOUR_MOBI_BOOK`
+    Mac OS &nbsp; &nbsp;: `./wisecreator-osx PATH_TO_YOUR_MOBI_BOOK`
 
 *You can move standalone wisecreator file anywhere you like on your computer, but if you are using calibre portable, make sure you add  your calibre portable folder to the PATH environment variable*  
 
