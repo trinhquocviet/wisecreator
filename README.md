@@ -31,8 +31,8 @@ To enable wordwise, the lang meta data of your .mobi files should be set to `eng
 2. Go to [Releases](https://github.com/trinhquocviet/wisecreator/releases) and download wisecreator version for your operating system (`wisecreator.exe` for windows, `wisecreator` for linux and `wisecreator-osx` for Mac OS)
 3. Finally run the below commands in a shell  
     Windows: `wisecreator.exe PATH_TO_YOUR_MOBI_BOOK`   
-    Linux &nbsp; &nbsp; &nbsp;: `./wisecreator PATH_TO_YOUR_MOBI_BOOK`
-    Mac OS &nbsp; &nbsp;: `./wisecreator-osx PATH_TO_YOUR_MOBI_BOOK`
+    Linux &nbsp; &nbsp; &nbsp;: `./wisecreator PATH_TO_YOUR_MOBI_BOOK`   
+    Mac OS &nbsp;: `./wisecreator-osx PATH_TO_YOUR_MOBI_BOOK`
 
 *You can move standalone wisecreator file anywhere you like on your computer, but if you are using calibre portable, make sure you add  your calibre portable folder to the PATH environment variable*  
 
