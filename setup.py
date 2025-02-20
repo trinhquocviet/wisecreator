@@ -21,7 +21,7 @@ class PostInstallCommand(install):
 setup(
     name='wisecreator',
     version='1.0.0',
-    python_requires='>=3.13',
+    python_requires='>=3.12',
     author='Timofey Milovanov',
     packages=['wisecreator'],
     package_data={
